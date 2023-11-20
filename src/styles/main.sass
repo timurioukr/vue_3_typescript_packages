@@ -1,0 +1,102 @@
+@import './base'
+@import 'constants'
+
+.search-input
+  max-width: 400px
+  width: 100%
+  border-radius: 15px
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px !important
+
+.table-wrapper
+  max-width: 1000px
+  width: 100%
+  border-radius: 5px
+  padding: 15px
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px
+
+.text-overflow
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+.transition
+  animation: basic 0.6s linear
+
+.footer-link a
+  text-decoration: none
+  color: inherit
+
+.error-color
+  color: $error
+
+.pointer
+  cursor: pointer
+
+.fs-12
+  font-size: 12px
+
+.flex
+  &-1
+    flex: 1
+  &-2
+    flex: 2
+
+.v-field__loader
+  color: $blue_600
+
+.v-theme
+  &--light .v-table__wrapper table  tbody tr:hover
+    background: $grey_100 !important
+  &--dark .v-table__wrapper table  tbody tr:hover
+    background: $blue_grey_700 !important
+
+.v-card
+  &-text
+    padding-top: 0 !important
+  &-title
+    white-space: normal !important
+
+@keyframes basic
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+// ============   For mobile devices   ============ //
+
+@media (max-width: 600px)
+  .v-toolbar
+    &-title__placeholder
+      text-align: center !important
+    &__content .v-toolbar-title
+      margin-inline-start: 0 !important
+
+  .table-wrapper .v-theme
+    &--light .v-table__wrapper table  tbody .mobile-table_wrapper
+      background: $grey_100
+    &--dark .v-table__wrapper table  tbody .mobile-table_wrapper
+      background: #0000005a
+
+  .v-theme
+    &--dark .v-table__wrapper table  tbody .mobile-table_wrapper:hover
+      background: $blue_grey_700 !important
+
+  .table-wrapper
+    padding: 0
+    & .v-table .v-table__wrapper table
+      &:has(tbody):has(.v-data-table-rows-no-data)
+        text-align: center !important
+      & tbody
+        display: inline-block !important
+        padding: 10px
+        & .mobile-table_wrapper
+          margin-bottom: 10px
+          border-radius: 5px !important
+          padding: 10px
+          & .mobile-table_wrapper-info:not(:last-child)
+            border-bottom: 1px solid $grey_300
+          &:hover
+            background: $grey_400
+            cursor: pointer
+      & thead
+        display: none
