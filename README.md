@@ -5,12 +5,6 @@
 ![Знімок екрана 2023-11-20 о 03 15 22](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/17387be8-eedf-46ea-a50f-1899c8ffb96e)
 ![Знімок екрана 2023-11-20 о 03 15 31](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/73146967-c416-4506-9a42-8f4d7a8af1db)
 
-## Мобильные
-![photo_5393489892048228514_y](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/da142216-1d0a-4cd3-8b07-87ee5dec9b18)
-![photo_5393489892048228513_y](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/e2bd2e87-f781-4815-89de-d56ed4b1c3fa)
-![photo_5393489892048228512_y](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/48158820-f8f6-45af-8f22-6d2300ac0b03)
-![photo_5393489892048228511_y](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/d7660fb5-bd8d-46cc-836b-11f9b1aa5191)
-
 ## Технологии
 Задание должно быть выполнено с использованием:
 - ES6
@@ -54,8 +48,6 @@ Vite test utilities не использовался в этой версии р�
 Мобильное тестирование на браузерах версии Chrome, Safari 
 с использованием устройств (IPhone XS, LG Optimus L7 II Dual – P715)
 
-
-
 ## Планы на релиз 0.0.2
 Интегрировать Chat GPT API для автоматического вывода инструкции по исользованию библиотек
 с высоким поисковым рейтингом. 
@@ -65,3 +57,9 @@ npm i && npm run start
 
 ## Контакт с автором
 [LinkedIn](https://www.linkedin.com/in/shekhovtsoff/)
+
+## Мобильные
+![photo_5393489892048228514_y](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/da142216-1d0a-4cd3-8b07-87ee5dec9b18)
+![photo_5393489892048228513_y](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/e2bd2e87-f781-4815-89de-d56ed4b1c3fa)
+![photo_5393489892048228512_y](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/48158820-f8f6-45af-8f22-6d2300ac0b03)
+![photo_5393489892048228511_y](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/d7660fb5-bd8d-46cc-836b-11f9b1aa5191)
