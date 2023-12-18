@@ -1,5 +1,4 @@
 # NPM Packages Searcher
-The project is a technical assignment for the company ****
 
 ## Desktop
 ![Знімок екрана 2023-11-20 о 03 15 22](https://github.com/timurioukr/vue_3_typescript_packages/assets/82959081/17387be8-eedf-46ea-a50f-1899c8ffb96e)
